@@ -7,8 +7,12 @@ Homebrew casks for [maester](https://github.com/codebend3r/maester)'s apps.
 Raven, the desktop video player, for Macs with Apple silicon:
 
 ```sh
-brew install --cask codebend3r/tap/raven
+brew tap codebend3r/tap
+brew trust codebend3r/tap
+brew install --cask raven
 ```
+
+Homebrew refuses to load a cask from a tap you haven't trusted, so `brew trust` comes first.
 
 Upgrade with `brew upgrade --cask raven`, remove with `brew uninstall --cask raven` (add `--zap` to delete its settings and downloads too).
 
