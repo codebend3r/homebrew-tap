@@ -1,4 +1,4 @@
-# codebend3r/homebrew-tap
+# maester-tv/homebrew-tap
 
 Homebrew casks for [maester](https://github.com/codebend3r/maester)'s apps.
 
@@ -7,8 +7,8 @@ Homebrew casks for [maester](https://github.com/codebend3r/maester)'s apps.
 Raven, the desktop video player, for Macs with Apple silicon:
 
 ```sh
-brew tap codebend3r/tap
-brew trust codebend3r/tap
+brew tap maester-tv/tap
+brew trust maester-tv/tap
 brew install --cask raven
 ```
 
